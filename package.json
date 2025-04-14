@@ -9,10 +9,6 @@
 	},
 	"dependencies": {
 		"next": "15.3.0",
-		"cheerio": "^1.0.0",
-		"cors": "^2.8.5",
-		"dotenv": "^16.4.7",
-		"fetch": "^1.1.0",
-		"node-fetch": "^3.3.2"
+		"cheerio": "^1.0.0"
 	}
 }

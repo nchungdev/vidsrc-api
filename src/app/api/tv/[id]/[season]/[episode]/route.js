@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-import { getMovie, getTv } from '@/app/common/api';
+import { getTv } from '@/app/common/api';
 
 export async function GET(req, { params }) {
 	const { id, season, episode } = params;
@@ -13,5 +13,12 @@ export async function GET(req, { params }) {
 		return NextResponse.json({ error: 'Invalid episode number' });
 	}
 	const output = await getTv(id, season, episode);
-	return NextResponse.json(output);
+	return new NextResponse(JSON.stringify(output), {
+		status: 200,
+		headers: {
+			'Access-Control-Allow-Origin': '*',
+			'Access-Control-Allow-Methods': 'GET, OPTIONS',
+			'Access-Control-Allow-Headers': 'Content-Type'
+		}
+	});
 }
