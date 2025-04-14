@@ -150,8 +150,14 @@ export async function getTwoEmbed(tmdb_id, s, e) {
                         if (!streamUrl) {
                             return { sources: createErrorObject(`Could not resolve stream URL for player4u ID: ${player4uId}`) };
                         }
+                        const proxyUrl = 'https://m3u8proxy.chung3396.workers.dev';
+                        const searchParams = new URLSearchParams();
+                        searchParams.set('url', streamUrl);
+                        const url = `${proxyUrl}/v2?${searchParams.toString()}`;
+                        console.log("StreamUrl: ", streamUrl);
+                        console.log("ProxyUrl: ", url);
 
-                        const parsedSources = await parseM3U8(streamUrl, PLAYER_URL);
+                        const parsedSources = await parseM3U8(url, PLAYER_URL);
 
                         if (parsedSources.length > 0) {
                             return {
