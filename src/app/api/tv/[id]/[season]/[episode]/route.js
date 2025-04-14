@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-import { getMovie, getTv } from '@/app/api';
+import { getMovie, getTv } from '@/app/common/api';
 
 export async function GET(req, { params }) {
 	const { id, season, episode } = params;

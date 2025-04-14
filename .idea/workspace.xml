@@ -4,26 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ddf25e4f-31f7-47e5-801e-1f22727ad58e" name="Changes" comment="Config support for npm">
-      <change beforePath="$PROJECT_DIR$/vidsrc-api/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vidsrc-api/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vidsrc-api/jsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vidsrc-api/next.config.mjs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vidsrc-api/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vidsrc-api/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vidsrc-api/src/app/api.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vidsrc-api/src/app/extractors/2Embed.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vidsrc-api/src/app/extractors/embedsu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vidsrc-api/src/app/movie/[id]/route.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vidsrc-api/src/app/route.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vidsrc-api/src/app/tv/[id]/[season]/[episode]/route.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vidsrc-api/src/app/utils/jsunpack.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vidsrc-api/src/app/workers/sites/2Embed.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vidsrc-api/src/app/workers/sites/AutoEmbed.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vidsrc-api/src/app/workers/sites/Embedsu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vidsrc-api/src/app/workers/sites/VidsrcSU.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vidsrc-api/src/app/workers/utils/jsunpack.js" beforeDir="false" />
-    </list>
+    <list default="true" id="ddf25e4f-31f7-47e5-801e-1f22727ad58e" name="Changes" comment="Config support for vercel" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,40 +20,43 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2vgDtmrucN2XVtgwR7ht2Yienua" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Node.js.index.js.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/chungnh/IdeaProjects/vidsrc-api/vidsrc-api/src/app/tv/[id]/[season]/[episode]",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "npm.build.executor": "Run",
-    "npm.deploy.executor": "Run",
-    "npm.dev (1).executor": "Run",
-    "npm.dev.executor": "Run",
-    "npm.start (1).executor": "Run",
-    "npm.start.executor": "Run",
-    "show.migrate.to.gradle.popup": "false",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Node.js.index.js.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/chungnh/IdeaProjects/vidsrc-api/vidsrc-api/src/app/tv/[id]/[season]/[episode]&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.build (1).executor&quot;: &quot;Run&quot;,
+    &quot;npm.build.executor&quot;: &quot;Run&quot;,
+    &quot;npm.deploy.executor&quot;: &quot;Run&quot;,
+    &quot;npm.dev (1).executor&quot;: &quot;Run&quot;,
+    &quot;npm.dev.executor&quot;: &quot;Run&quot;,
+    &quot;npm.start (1).executor&quot;: &quot;Run&quot;,
+    &quot;npm.start.executor&quot;: &quot;Run&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/vidsrc-api/src/app/tv/[id]/[season]/[episode]" />
@@ -159,7 +143,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1744558040889</updated>
-      <workItem from="1744558042021" duration="8301000" />
+      <workItem from="1744558042021" duration="8822000" />
     </task>
     <task id="LOCAL-00001" summary="Init project">
       <option name="closed" value="true" />
@@ -225,15 +209,62 @@
       <option name="project" value="LOCAL" />
       <updated>1744602568160</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Config support for vercel">
+      <option name="closed" value="true" />
+      <created>1744602881160</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1744602881160</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="HEAD" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Init project" />
     <MESSAGE value="Config support for npm" />
-    <option name="LAST_COMMIT_MESSAGE" value="Config support for npm" />
+    <MESSAGE value="Config support for vercel" />
+    <option name="LAST_COMMIT_MESSAGE" value="Config support for vercel" />
   </component>
 </project>
