@@ -1,0 +1,19 @@
+{
+	"name": "vidsrc-api",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev --turbopack",
+		"build": "next build",
+		"start": "next start"
+	},
+	"dependencies": {
+		"next": "15.3.0",
+		"cheerio": "^1.0.0",
+		"cors": "^2.8.5",
+		"dotenv": "^16.4.7",
+		"express": "^4.18.2",
+		"fetch": "^1.1.0",
+		"node-fetch": "^3.3.2"
+	}
+}
